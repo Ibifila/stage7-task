@@ -7,7 +7,7 @@ function getPosts() {
         data.forEach(e => {
             html += `
             <div class="col-md-4 mb-3">
-                <div class="card">
+                <div class="card h-100">
                     <div class="card-body">
                     <a class="text-decoration-none" href = "blog-post.html?id=${e.id}"><h5 class="post-title text-danger mb-4">${e.title}</h5></a>
                       <p class="post-body">${e.body}</p>
